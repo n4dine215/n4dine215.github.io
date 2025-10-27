@@ -47,13 +47,13 @@
  .container{
   min-height: 100vh;
   padding: 0 1.5rem
- 	position: relative;
+  position: relative;
   width: 100%;
- 	height: 100%;
- 	background: var(--primary-color);
- 	color: var(--secondary-color);
- 	transform: scale(0);
- 	animation: zoom-in 1s ease forwards;
+  height: 100%;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transform: scale(0);
+  animation: zoom-in 1s ease forwards;
  }
 
  @keyframes zoom-in {
@@ -733,12 +733,35 @@
   .experience-container {
      grid-template-columns: repeat(1, 1fr); 
   }
+
+  .container {
+     min-height: 100vh;
+     padding: 0 1.5rem
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     transform: scale(0);
+     animation: zoom-in 1s ease forwards;
+  }	
 }
 
 @media (max-width: 1200px){
   html {
     font-size: 55%;
   }
+	.container {
+     min-height: 100vh;
+     padding: 0 1.5rem
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     transform: scale(0);
+     animation: zoom-in 1s ease forwards;
+  }	
 }
 
 @media (max-width:991px){
@@ -752,6 +775,17 @@
   .footer {
     padding: 2rem, 3%;
   }
+	 .container {
+     min-height: 100vh;
+     padding: 0 1.5rem
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     transform: scale(0);
+     animation: zoom-in 1s ease forwards;
+  }	
 }
 
 @media (max-width: 768px) {
@@ -845,6 +879,17 @@
     width: 100%;
     display: absolute;
   }
+	.container {
+     min-height: 100vh;
+     padding: 0 1.5rem
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     transform: scale(0);
+     animation: zoom-in 1s ease forwards;
+  }	
 }
 
 @media (min-width: 769px) {
@@ -857,7 +902,20 @@
   #close-icon {
     display: none;
   }
+
+	 .container {
+     min-height: 100vh;
+     padding: 0 1.5rem
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background: var(--primary-color);
+     color: var(--secondary-color);
+     transform: scale(0);
+     animation: zoom-in 1s ease forwards;
+  }	
 }
+
 
 
 
